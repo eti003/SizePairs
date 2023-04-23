@@ -1,1 +1,1 @@
-# SizePairs
+# SizePairsThis code is based on the IEEE research paper which talks about creating balanced and stable visually appealing treemaps for time series data. The algorithm given in the paper took a lot of time to run for even 100 data points. The algorithm clusters the data hierarchically. I modified the algorithm and now it runs faster than its previous version in O(n^3) time where n is the number of items. The previous algorithm used matrix for computations, I used dictionary hence it runs faster and occupies less space also.
